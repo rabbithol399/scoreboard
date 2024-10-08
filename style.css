@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1B244A;
+    padding: 20px;
+    padding-bottom: 60px;
+    margin: 30px;
+}
+
+h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, serif;
+    font-size: 60px;
+    color: #F94F6D;
+;
+}
+
+h3 {
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.homebox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+.scorebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111827;
+    height: 60px;
+    width: 80px;
+    padding: 30px;
+}
+
+.buttonBox {
+    padding: 20px;
+    display: flex;
+    
+}
+
+.buttonBox .add {
+    background-color: #111827;
+    border-radius: 8px;
+    border: 2px solid lightblue;
+    padding: 10px;
+    margin: 3px;
+    color: aliceblue;
+}
+.buttonBox .add {
+    background-color: #111827;
+    border-radius: 8px;
+    border: 2px solid lightblue;
+    padding: 10px;
+    margin: 3px;
+    color: aliceblue;
+}
