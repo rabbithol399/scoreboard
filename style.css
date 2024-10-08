@@ -9,7 +9,6 @@ body {
     background-color: #1B244A;
     padding: 20px;
     padding-bottom: 60px;
-    margin: 30px;
 }
 
 h2 {
@@ -46,7 +45,7 @@ h3 {
     
 }
 
-.buttonBox .add {
+.add {
     background-color: #111827;
     border-radius: 8px;
     border: 2px solid lightblue;
@@ -54,11 +53,12 @@ h3 {
     margin: 3px;
     color: aliceblue;
 }
-.buttonBox .add {
-    background-color: #111827;
-    border-radius: 8px;
-    border: 2px solid lightblue;
-    padding: 10px;
-    margin: 3px;
-    color: aliceblue;
+
+.resetbox {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 30px;
 }
